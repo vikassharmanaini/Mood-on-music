@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(179, 128, 137, 0.712),rgba(66, 74, 90, 0.719));
+}
+.alert {
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, rgba(119, 0, 50, 0.603), hsla(310, 100%, 36%, 0.603),rgba(228, 4, 217, 0.678));
+    color: white;
+    opacity: 1;
+    transition: opacity 0.5s;
+    margin-bottom: 15px;
+  }
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .closebtn:hover {
+    color: black;
+  }
+header{
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(241, 76, 11);
+    padding-left: 10%;
+    background-image: repeating-radial-gradient(#f588dd,#fb9b9b,rgb(255, 255, 255));
+    background-size: 4px,10px;
+    backface-visibility: 0.2;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgb(153, 97, 7);
+    transition: 0.3s;
+    text-shadow: orangered;
+}
+.deepfocus{
+    height: max-content;
+    background-image: repeating-linear-gradient(rgba(245, 112, 194, 0.849),rgba(246, 245, 246, 0.575),rgba(113, 112, 114, 0.507));
+    color: white;
+    text-shadow: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    padding: auto;
+    text-align: center;
+    border:5px;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+.bodydeep{
+    display: flex;
+    margin: 1%;
+}
+.deepcard{
+    width: 20%;
+    box-shadow: 0 8px 8px 0 rgba(102, 57, 57, 0.774);
+    margin: auto;
+    border-style: solid;
+    background-image: linear-gradient(rgba(180, 100, 163, 0.74),rgba(155, 120, 150, 0.63));
+}
+.deepcard :hover{
+    box-shadow: 0 16px 16px 0 rgba(49, 33, 65, 0.87);
+    letter-spacing: 1px;
+}
+.dis{
+     display: none; 
+}
+.Creator{
+    color: azure;
+    text-align: center;
+}
+.Creator a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor:pointer;
+}
+.Creator a:hover{
+    letter-spacing: 1px;
+}
+#name:hover{
+    letter-spacing: 1px;
+}
+.playico{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+@media only screen and (max-width:500px) {
+    .deepcard{
+        width: 70%;  
+        box-shadow: 0 4px 8px 0 rgb(114, 77, 53);
+        margin: auto;
+        margin-top: 2%;
+        border-top-left-radius: 20px;
+        border-style: solid;
+        background-image: linear-gradient(rgba(219, 191, 154, 0.603),rgba(211, 169, 169, 0.835));
+    }  
+    .deepfocus{
+        height: max-content;
+        background-image: repeating-linear-gradient(#ff6dda,rgb(241, 183, 183),rgba(100, 94, 109, 0.657));
+        color: white;
+        text-shadow: whitesmoke;
+        font-family: Cambria, Cochin, Georgia, Times, serif;
+        font-size: 110%;
+        padding: 1%;
+        text-align:center;
+        border:5px;
+        border-color: aliceblue;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;   
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        font-weight: bold;
+
+        
+    }
+    .bodydeep{
+        display: inline;
+        margin: 3%;
+        padding-top: 4px;
+    }
+}
